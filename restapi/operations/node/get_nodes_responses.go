@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	models "goswagger/models"
+	models "github.com/nyasuto/goswagger/models"
 )
 
 // GetNodesOKCode is the HTTP code returned for type GetNodesOK

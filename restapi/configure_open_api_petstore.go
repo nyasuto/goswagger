@@ -4,7 +4,7 @@ package restapi
 
 import (
 	"crypto/tls"
-	"goswagger/restapi/operations/node"
+	"github.com/nyasuto/goswagger/restapi/operations/node"
 	"net/http"
 
 	"github.com/go-openapi/errors"
@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime/middleware"
 
 	"github.com/go-openapi/runtime/security"
-	"goswagger/restapi/operations"
+	"github.com/nyasuto/goswagger/restapi/operations"
 )
 
 //go:generate swagger generate server --target .. --name  --spec ../test.yaml
@@ -54,9 +54,9 @@ func configureAPI(api *operations.OpenAPIPetstoreAPI) http.Handler {
 
 	//api.PetGetPetByIDHandler = pet.Search
 	/*
-	api.PetGetPetByIDHandler = pet.GetPetByIDHandlerFunc(func(params pet.GetPetByIDParams, principal interface{}) middleware.Responder {
-		return pet.Search(params)
-	})*/
+		api.PetGetPetByIDHandler = pet.GetPetByIDHandlerFunc(func(params pet.GetPetByIDParams, principal interface{}) middleware.Responder {
+			return pet.Search(params)
+		})*/
 
 	api.NodeGetNodesHandler = node.GetNodesHandlerFunc(func(params node.GetNodesParams, principal interface{}) middleware.Responder {
 		return node.Search()

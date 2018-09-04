@@ -2,7 +2,7 @@ package node
 
 import (
 	"github.com/go-openapi/runtime/middleware"
-	"goswagger/models"
+	"github.com/nyasuto/goswagger/models"
 )
 
 func toPtr(s string) *string {
@@ -10,10 +10,9 @@ func toPtr(s string) *string {
 }
 func Search() middleware.Responder {
 	payload := &models.Node{
-		Name:   toPtr("nyan") ,
+		Name:   toPtr("nyan"),
 		Status: "hungry",
 	}
 
 	return NewGetNodesOK().WithPayload(payload)
 }
-

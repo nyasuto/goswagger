@@ -19,7 +19,7 @@ import (
 	strfmt "github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 
-	"goswagger/restapi/operations/node"
+	"github.com/nyasuto/goswagger/restapi/operations/node"
 )
 
 // NewOpenAPIPetstoreAPI creates a new OpenAPIPetstore instance
