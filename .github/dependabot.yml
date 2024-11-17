@@ -11,3 +11,9 @@ updates:
       interval: "weekly"
     reviewers:
       - nyasuto
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - nyasuto
