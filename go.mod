@@ -1,6 +1,6 @@
 module goswagger
 
-go 1.16
+go 1.23
 
 require (
 	github.com/go-openapi/errors v0.22.0
