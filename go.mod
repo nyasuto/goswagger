@@ -3,7 +3,7 @@ module goswagger
 go 1.16
 
 require (
-	github.com/go-openapi/errors v0.20.3
+	github.com/go-openapi/errors v0.22.0
 	github.com/go-openapi/loads v0.21.2
 	github.com/go-openapi/runtime v0.25.0
 	github.com/go-openapi/spec v0.20.8
