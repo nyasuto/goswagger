@@ -12,7 +12,7 @@ require (
 	github.com/go-openapi/validate v0.24.0
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/nyasuto/goswagger v0.0.0-20180904102113-f3e350217f6e
-	golang.org/x/net v0.33.0
+	golang.org/x/net v0.35.0
 )
 
 require (
@@ -28,6 +28,6 @@ require (
 	github.com/oklog/ulid v1.3.1 // indirect
 	go.mongodb.org/mongo-driver v1.14.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
