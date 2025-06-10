@@ -14,7 +14,7 @@ require (
 	github.com/go-openapi/validate v0.24.0
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/nyasuto/goswagger v0.0.0-20180904102113-f3e350217f6e
-	golang.org/x/net v0.40.0
+	golang.org/x/net v0.41.0
 )
 
 require (
