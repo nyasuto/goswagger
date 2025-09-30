@@ -11,7 +11,7 @@ require (
 	github.com/go-openapi/spec v0.22.0
 	github.com/go-openapi/strfmt v0.24.0
 	github.com/go-openapi/swag v0.25.1
-	github.com/go-openapi/validate v0.24.0
+	github.com/go-openapi/validate v0.25.0
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/nyasuto/goswagger v0.0.0-20180904102113-f3e350217f6e
 	golang.org/x/net v0.44.0
